@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Alex Morgan — Premium 3D Developer Portfolio
 
 A futuristic, cinematic, fully responsive 3D developer portfolio built with React, Three.js, Framer Motion, and GSAP. Inspired by Apple, Tesla, and Awwwards-level design.
@@ -198,3 +199,6 @@ MIT License — free to use and modify for personal and commercial projects.
 ---
 
 Built with ❤️ by Alex Morgan
+=======
+# Portfolio-
+>>>>>>> abf8d1f0f8df4be26005753cd7a540107bbbabae
