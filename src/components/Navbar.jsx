@@ -2,9 +2,10 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { navLinks } from "../data";
 import {
-  FiGithub, FiLinkedin, FiTwitter, FiMenu, FiX,
+  FiGithub, FiLinkedin,  FiMenu, FiX,
 } from "react-icons/fi";
 import myPhoto from "../assets/me2.jpeg";
+import { SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -88,9 +89,9 @@ const Navbar = () => {
           {/* Social + CTA */}
           <div className="hidden md:flex items-center gap-3">
             {[
-              { icon: FiGithub, url: "https://github.com" },
-              { icon: FiLinkedin, url: "https://linkedin.com" },
-              { icon: FiTwitter, url: "https://twitter.com" },
+              { icon: FiGithub, url: "https://github.com/badalsain024" },
+              { icon: FiLinkedin, url: "https://www.linkedin.com/in/badal-sain-8b6753344/" },
+              { icon: SiLeetcode, url: "https://leetcode.com/u/_badal_23/" },
             ].map(({ icon: Icon, url }) => (
               <motion.a
                 key={url}
@@ -162,7 +163,7 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex gap-4 mt-4 pt-4 border-t border-white/10">
-              {[FiGithub, FiLinkedin, FiTwitter].map((Icon, i) => (
+              {[FiGithub, FiLinkedin, SiLeetcode].map((Icon, i) => (
                 <motion.a
                   key={i}
                   href="#"

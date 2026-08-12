@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import { FiGithub, FiLinkedin, FiTwitter, FiInstagram, FiDownload, FiArrowRight } from "react-icons/fi";
+import { FiGithub, FiLinkedin,  FiInstagram, FiDownload, FiArrowRight } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
+
 import { Suspense, lazy } from "react";
 const HeroScene = lazy(() => import("../components/HeroScene"));
 import { personalInfo } from "../data";
@@ -22,9 +24,9 @@ const Hero = () => {
   };
 
   const socialLinks = [
-    { icon: FiGithub, url: "https://github.com", label: "GitHub" },
-    { icon: FiLinkedin, url: "https://linkedin.com", label: "LinkedIn" },
-    { icon: FiTwitter, url: "https://twitter.com", label: "Twitter" },
+    { icon: FiGithub, url: "https://github.com/badalsain024", label: "GitHub" },
+    { icon: FiLinkedin, url: "https://www.linkedin.com/in/badal-sain-8b6753344/", label: "LinkedIn" },
+    { icon: SiLeetcode, url: "https://leetcode.com/u/_badal_23/", label: "Twitter" },
     { icon: FiInstagram, url: "https://instagram.com", label: "Instagram" },
   ];
 

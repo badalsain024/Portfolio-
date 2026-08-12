@@ -149,10 +149,10 @@ const Contact = () => {
               <div className="flex flex-col gap-3">
                 <ContactCard icon={FiMail} label="Email" value={personalInfo.email}
                   href={`mailto:${personalInfo.email}`} color="#7c3aed" />
-                <ContactCard icon={FiLinkedin} label="LinkedIn" value="linkedin.com/in/alexmorgan"
-                  href="https://linkedin.com" color="#06b6d4" />
-                <ContactCard icon={FiGithub} label="GitHub" value="github.com/alexmorgan"
-                  href="https://github.com" color="#a855f7" />
+                <ContactCard icon={FiLinkedin} label="LinkedIn" value="linkedin.com/in/Badal Sain"
+                  href="https://www.linkedin.com/in/badal-sain-8b6753344/" color="#06b6d4" />
+                <ContactCard icon={FiGithub} label="GitHub" value="github.com/Badal Sain"
+                  href="https://github.com/badalsain024" color="#a855f7" />
                 <ContactCard icon={FiMapPin} label="Location" value={personalInfo.location}
                   href="#" color="#10b981" />
               </div>
